@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+button{
+  background-color: #4CAF50; /* Green */
+
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+position:relative;
+
+ 
+    left:40%
+}
+header{
+	background: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height:45px;
+}
+header h1{
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+nav ul{
+	display: inline;
+	padding:0px;
+	float: left;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float:left;
+	margin-left: 15px;
+}
+
+nav ul li a{
+	color: white;
+	background: rgb(46, 161, 182);
+	text-decoration: none;
+	border: 3px solid rgb(46, 161, 182);
+	border-radius: 25px;
+}
+
+#nav{
+
+	font-family: 'Montserrat', sans-serif;
+}
+.homered{
+	background-color: #ff0057;
+	padding: 30px 10px 16px 10px;
+}
+
+
+.homeblack:hover{
+	background-color: rgb(46, 161, 182);
+	padding: 30px 10px 16px 10px;
+}
+
+</style>
+<body>
+	<header>
+			<nav>
+				<h1>HELPING HANDS</h1>
+				<ul id="nav">
+
+					<li><a class="homered" href="a">HOME</a></li>
+					<li><a class="homeblack" href="appointment.xhtml">ABOUT</a></li>
+					<li><a class="homeblack" href="infoboard.xhtml">INFOBOARD</a></li>
+					<li><a class="homeblack" href="signup_pass.xhtml">COMPLAINT</a></li>
+					
+					<li><a class="homeblack" href="feedback.xhtml">FEEDBACK</a></li>
+					
+				</ul>
+			</nav>
+		</header>
+	
+	<div>
+		<br/><br/>
+	<button onclick="location.href='admin.xhtml';">user</button>
+	<br></br>
+	<br></br>
+	<button onclick="location.href='user.xhtml';">User</button>
+</div>
+
+</body>
+</html>
